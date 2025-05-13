@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -71,11 +71,18 @@ button {
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 .section-slogan-title {
@@ -94,13 +101,22 @@ button {
   color: #434455;
 }
 
+.section-team {
+  background-color: #f4f4fd;
+}
+
 .section-team-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+
+.section-team-list {
+  background-color: #ffffff;
 }
 
 .section-team-subtitle {
@@ -122,6 +138,7 @@ button {
 }
 
 .section-portfolio-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
