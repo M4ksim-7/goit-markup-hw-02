@@ -105,6 +105,10 @@ button {
   background-color: #f4f4fd;
 }
 
+.section-team-item {
+  background-color: #ffffff;
+}
+
 .section-team-title {
   text-transform: capitalize;
   font-weight: 700;
